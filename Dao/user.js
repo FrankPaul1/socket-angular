@@ -1,7 +1,7 @@
 /**
  * Created by xieyicheng on 2014/11/14.
  */
-module.exports  = function(){
+ var model = (function(){
     var crypto = require('crypto');
     var mongoose = require('mongoose');
     var Schema = mongoose.Schema;
@@ -84,4 +84,6 @@ module.exports  = function(){
         modify:modify,
         User:User
     };
-};
+})();
+
+module.exports = model;

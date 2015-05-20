@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var UserModel = require('../Dao/user')();
+var UserModel = require('../Dao/user');
 /**
  * 注册账号
  * 参数account和password

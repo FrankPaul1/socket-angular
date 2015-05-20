@@ -10,7 +10,7 @@ var cookie = require('cookie');
 var session = require('express-session');
 var mongoose = require('mongoose');
 var users = require('./routes/users');
-var UserModel = require('./Dao/user')();
+var UserModel = require('./Dao/user');
 var MongoStore = require('connect-mongo')(session);
 app.use(logger('dev'));
 app.use(bodyParser.json());

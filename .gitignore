@@ -6,6 +6,6 @@
 
 
 /.idea
-/node_modules
+# /node_modules
 /projectFilesBackup
 tmp.js
